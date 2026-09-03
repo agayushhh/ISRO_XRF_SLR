@@ -5,7 +5,7 @@ This repository contains code developed for super-resolution by a deep spatial i
 ## Project Structure
 ### Main Components:
 1. **data_processing_and_mapping**:
-   - **gdl**: GNU Data Language (GDL) for processing and analyzing FITS (Flexible Image Transport System) files containing data on lunar surface elemental abundances.
+   - **gdl**: GNU Data Language (GDL) for processing, combining and analysing FITS (Flexible Image Transport System) files containing data on lunar surface elemental abundances.
    - **xspec_xsmdas**: XSPEC is a software designed for the analysis of astronomical X-ray spectra. It enables users to fit theoretical models to observational data, providing insights into the physical properties of celestial objects. XSM Data Analysis Software (XSMDAS) processes XSM data step by step to create usable results. It converts raw data (level-0) into intermediate data (level-1) and then into final products (level-2). These final products include calibrated spectra and light curves, which can be customized with different settings.
    - **mapping**: Quantum Geographic Information System (QGIS) software for Visualizing the Lunar Abundances on Lunar Albedo Basemap at good sub-pixel resolution. The task is automated using PyQGIS codes. QGIS an open-source GIS platform that is freely available and offers a range of features suitable for various types of geospatial data analysis and visualization.
    
